@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header, .footer { text-align: center; }
+        .content { margin: 0 auto; max-width: 800px; }
+        .nav-links { text-align: center; margin-bottom: 20px; }
+        .nav-links a { margin: 0 10px; text-decoration: none; }
+        .main-content { display: flex; justify-content: space-between; }
+        .form-content { text-align: left; }
+        .useful-links { text-align: left; }
+        .header img { max-width: 1000px; } /* Adjust the size of the logos as needed */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="dulogo.jpg" alt="DU Logo">
+        <img src="iitban.gif" alt="IIT Banner">
+        <img src="iitlogo-blue.png" alt="IIT Logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="linebreaks.html">Line Breaks</a>
+        <a href="tags.html">Tags</a>
+        <a href="lists.html">Lists</a>
+        <a href="tables.html">Tables</a>
+        <a href="forms.html">Forms</a>
+    </div>
+
+    <div class="content">
+        <h1>Registration Form</h1>
+        <div class="main-content">
+            <div class="form-content">
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <br>
+    
+                    <label for="language">Language:</label>
+                    <input type="checkbox" id="bangla" name="language" value="bangla">
+                    <label for="bangla">Bangla</label>
+                    <input type="checkbox" id="english" name="language" value="english">
+                    <label for="english">English</label>
+                    <br>
+    
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">Select Country</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        </select>
+                        <br>
+    
+                    <label for="biography">Biography:</label>
+                    <textarea id="biography" name="biography"></textarea>
+                    <br>
+    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+    
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <br>
+    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+            <div class="useful-links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="http://www.du.ac.bd/">University of Dhaka</a></li>
+                    <li><a href="http://www.iit.du.ac.bd/">Institute of Information Technology</a></li>
+                    <li><a href="http://www.ugc.gov.bd/">UGC</a></li>
+                    <li><a href="https://ictd.gov.bd/">ICT Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="footer">
+            <p>© 2024, by PRONOB KARMOKER</p>
+        </footer>
+    </div>
+</body>
+</html>

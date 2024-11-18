@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #000; padding: 10px; text-align: left; }
+        .header img { width: 100px; }
+        .nav-links { text-align: center; }
+        .nav-links a { margin: 0 10px; text-decoration: none; }
+        hr { border: none; border-top: 1px solid #000; margin: 10px 0; }
+        .content { display: flex; justify-content: space-between; }
+        .useful-links { text-align: right; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td colspan="3">
+                <img src="dulogo.jpg" alt="DU Logo">
+                <img src="iitban.gif" alt="IIT Banner">
+                <img src="iitlogo-blue.png" alt="IIT Logo">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6" class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="linebreaks.html">Line Breaks</a>
+                <a href="tags.html">Tags</a>
+                <a href="lists.html">Lists</a>
+                <a href="tables.html">Tables</a>
+                <a href="forms.html">Forms</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="content">
+                    <div class="text-section">
+                        <h1>Demonstrating a few HTML features</h1>
+                        <div class="main-content">
+                            <div class="text-content">
+                                <p>HTML is really a very simple language. It consists of ordinary text, with commands that are enclosed by "&lt;" and "&gt;" characters, or between an "&amp;" and a ";".</p>
+                                <p>You don't really need to know much HTML to create a page, because you can copy bits of HTML from other pages that do what you want, then change the text!</p>
+                                <p>This page shows on the left as it appears in your browser, and the corresponding HTML code appears on the right. The HTML commands are linked to explanations of what they do.</p>
+                            </div>
+                            <div class="code-content">
+                                <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Home Page&lt;/title&gt;
+            ...
+        &lt;/html&gt;
+                                </pre>
+                            </div>
+                        </div>
+                    <div class="useful-links">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="http://www.du.ac.bd/">University of Dhaka</a></li>
+                            <li><a href="http://www.iit.du.ac.bd/">Institute of Information Technology</a></li>
+                            <li><a href="http://www.ugc.gov.bd/">UGC</a></li>
+                            <li><a href="https://ictd.gov.bd/">ICT ministry</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <footer>
+                    <p>Copyright © 2024, by [Your Name]</p>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

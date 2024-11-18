@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Line Breaks</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header, .footer { text-align: center; }
+        .content { margin: 0 auto; max-width: 800px; }
+        .nav-links { text-align: center; margin-bottom: 20px; }
+        .nav-links a { margin: 0 10px; text-decoration: none; }
+        .header img { max-width: 1000px; } 
+        .main-content { display: flex; justify-content: space-between; }
+        .line-breaks-content { text-align: left; }
+        .useful-links { text-align: left; }
+    </style>
+</head>
+<body>
+    <table border="1" border="120%">
+    <div class="header">
+        <img src="dulogo.jpg" alt="DU Logo">
+        <img src="iitban.gif" alt="IIT Banner">
+        <img src="iitlogo-blue.png" alt="IIT Logo">
+    </div>
+
+    <div class="nav-links">
+        <table width="100%">
+            <tr>
+                <td><a href="home.html">Home</a></td>
+                <td><a href="linebreaks.html">Line Breaks</a></td>
+                <td><a href="tags.html">Tags</a></td>
+                <td><a href="lists.html">Lists</a></td>
+                <td><a href="tables.html">Tables</a></td>
+                <td><a href="forms.html">Forms</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="content">
+        <h1>Line Breaks</h1>
+        <div class="main-content">
+            <div class="line-breaks-content">
+                <p>HTML doesn't normally use line breaks for ordinary text. A white space of
+                    any size is treated as a single space. This is because the author of the page
+                    has no way of knowing the size of the reader's screen, or what size type they
+                    will have their browser set for. If you want to put a line break at a particular place, you can use the "<code>&lt;br&gt;</code>" command, or, for a paragraph break, the "<P>" command, which will insert
+                    a blank line. The heading command ("<code>&lt;H4&gt;</code>") puts a blank line above
+                    and below the heading text.</p>
+            </div>
+            <div class="useful-links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="http://www.du.ac.bd/">University of Dhaka</a></li>
+                    <li><a href="http://www.iit.du.ac.bd/">Institute of Information Technology</a></li>
+                    <li><a href="http://www.ugc.gov.bd/">UGC</a></li>
+                    <li><a href="https://ictd.gov.bd/">ICT Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="footer">
+            <p>© 2024, by pronob karmoker</p>
+        </footer>
+    </div>
+    </table>
+</body>
+</html>
