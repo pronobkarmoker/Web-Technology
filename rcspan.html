@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Box Model Illustration */
+    .box-model {
+      margin: 20px auto;
+      padding: 20px;
+      border: 5px solid #333;
+      background-color: #ddd;
+      width: 300px;
+      text-align: center;
+    }
+
+    .box-content {
+      background: #fff;
+      padding: 10px;
+      border: 1px dashed #999;
+      font-size: 16px;
+    }
+
+    /* Margin and Padding Shorthand */
+    .shorthand-example {
+      margin: 10px auto;
+      padding: 15px 30px;
+      border: 2px solid #555;
+      background-color: #eef;
+      text-align: center;
+      width: 80%;
+    }
+
+    .centered-box {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #cfe3fc;
+      text-align: center;
+      border: 3px solid #4682b4;
+    }
+
+    /* Floats */
+    .float-container {
+      overflow: hidden; /* Clearfix */
+    }
+
+    .float-box {
+      float: left;
+      width: 30%;
+      margin: 10px;
+      padding: 10px;
+      background: #ffcccb;
+      border: 2px solid #f08080;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Box Model</h1>
+
+  <div class="container">
+    <h2>Box Model Regions</h2>
+    <div class="box-model">
+      <div class="box-content">Content</div>
+    </div>
+
+    <h2>Margins vs Padding</h2>
+    <p>Example showing how margins and padding behave:</p>
+    <div class="shorthand-example">
+      This box uses <code>margin: 10px auto</code> and <code>padding: 15px 30px</code>.
+    </div>
+
+    <h2>Centering with Margin: auto</h2>
+    <div class="centered-box">
+      This box is centered using <code>margin: 0 auto</code>.
+    </div>
+
+    <h2>CSS Floats</h2>
+    <p>Example of floating boxes:</p>
+    <div class="float-container">
+      <div class="float-box">Float Box 1</div>
+      <div class="float-box">Float Box 2</div>
+      <div class="float-box">Float Box 3</div>
+    </div>
+  </div>
+</body>
+</html>
